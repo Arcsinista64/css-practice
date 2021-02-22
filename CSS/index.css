@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+header{
+    background-color:#666666;
+    height: 50vh;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
