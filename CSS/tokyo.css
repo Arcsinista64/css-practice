@@ -8,3 +8,24 @@ h1{
     font-size: 50px;
     margin-top: auto;
 }
+.container 
+{
+    height: 85vh;
+    background: gray;
+}
+
+aside
+{
+    height: 85vh;
+    background: #cccccc;
+    width: 25%;
+    float: left;
+}
+
+aside > .contenedorLinks > a
+{
+    
+    font-size: 30px;
+    margin: 10% 5%;
+    display: block;
+}
