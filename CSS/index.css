@@ -1,12 +1,91 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 header{
     background-color:#666666;
-    height: 50vh;
+    height: 10vh;
 }
 h1{
     text-align: center;
     color: white;
     font-size: 50px;
+}
+
+.container 
+{
+    height: 80vh;
+   
+    
+}
+
+aside
+{
+    height: 100%;
+    background: #cccccc;
+    width: 25%;
+    padding-top: 15%;
+    float: left;
+}
+
+/*Se afectaran a todos los elementos dentro de aside llamados "contenedorLinks"*/
+aside > .contenedorLinks
+{
+    height: 20%;
+    width: 80%;
+    margin: auto;
+}
+
+.contenedorLinks > a 
+{
+    display: block;
+    font-size: 30px;
+    color: rgb(8, 128, 128);
+    margin: 2px 0px;
+}
+
+section
+{
+    height: 100%;
+    width: 75%;
+    float: left;
+    padding-top: 3%;
+    background: #f1f1f1;
+}
+
+h3{
+    font-size: 60px;
+    width: 90%;
+    margin: 5% auto;
+
+}
+
+.textoPrincipal
+{
+    font-size: 150%;
+    width: 90%;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+iframe
+{
+    display: block;
+    margin: auto 5%;
+    float:left;
+
+}
+
+footer{
+    height: 10vh;
+
+    background: #666666;
+}
+
+footer > p 
+{
+    color: #ffff;
+    text-align: center;
+    font-size: 30px;
+
 }
