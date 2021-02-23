@@ -53,3 +53,16 @@ iframe
     float:left;
 
 }
+footer{
+    height: auto;
+    background: #666666;
+    margin: unset;
+}
+
+footer > p 
+{
+    color: #ffff;
+    text-align: center;
+    font-size: 30px;
+
+}
