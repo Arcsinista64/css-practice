@@ -15,6 +15,7 @@ section
     background: url('/assets/ev\ \(6\).jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
 }
 .sec2
@@ -23,9 +24,11 @@ section
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 .sec3
 {
+    background-attachment: fixed;
     background: url('/assets/ev\ \(3\).jpg');
     background-repeat: no-repeat;
     background-size: cover;
