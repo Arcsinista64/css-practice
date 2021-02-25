@@ -1,4 +1,33 @@
-.content
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section
 {
-    /*test*/
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.sec1
+{
+    background: url('/assets/ev\ \(6\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec2
+{
+    background: url('/assets/ev\ \(4\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec3
+{
+    background: url('/assets/ev\ \(3\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
