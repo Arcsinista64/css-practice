@@ -31,3 +31,22 @@ section
     background-size: cover;
     background-position: center;
 }
+
+.secText
+{
+    height: auto;
+    padding: 50px 100px;
+}
+.secText > h1 
+{
+    margin: 0;
+    padding: 0;
+    font-size: 5vh;
+    color: grey;
+}
+
+.secText > p
+{
+    font-size: 2vh;
+    text-align: justify;
+}
