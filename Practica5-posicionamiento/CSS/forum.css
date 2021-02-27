@@ -38,7 +38,7 @@ div {
     font-size: 2.5vh;
     position: absolute;
     color: #9ac01d;
-    top: 10vh;
+    top: 11vh;
     left: 12.5%;
     font-weight: 500;
 }
@@ -316,7 +316,146 @@ h2 > .h2o
 .flyer2
 {
     background: #3f403c;
+    position: relative;
 }
+
+.flyer2 > .circulo
+{
+    width: 50%;
+     height: 40%;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     /* background:#; */
+     border-style: solid;
+     border-color: #9ac01d;
+     border-width: 1vh;
+
+    position: absolute;
+    left: 22.5%;
+    bottom: 30%;
+}
+
+.flyer2 > p 
+{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 3vh;
+
+
+    top: 5%;
+    width: 100%;
+}
+
+.flyer2 > span
+{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 3vh;
+    font-weight: 500;
+
+    top: 12.5%;
+    width: 100%;
+}
+
+.flyer2 > .tres
+{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 1.5vh;
+    font-weight: 500;
+
+    top: 65%;
+    width: 90%;
+}
+
+.flyer2 > .cuatro
+{
+    position: absolute;
+    font-size: 10px;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 2vh;
+    font-weight: 500;
+    color: #9ac01d;
+
+    top: 85%;
+    width: 100%;
+}
+
+.flyer2 > .cinco
+{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 1.5vh;
+    font-weight: 500;
+
+    top: 90%;
+    width: 100%;
+}
+
+.pintarVerde
+{
+    color: #9ac01d;
+}
+
+.flyer2 > .circulo > p 
+{
+    position: absolute;
+    font-size: 10px;
+    top: 10px;
+    color: white;
+    font-family: Century Gothic;
+    font-size: 4vh;
+
+    top: 15%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+
+    transform: translate(-50%,50%);
+
+}
+.flyer2 > .circulo > span 
+{
+    position: absolute;
+    font-size: 10px;
+    top: 10px;
+    color: white;
+    font-family: Century Gothic;
+    font-size: 2.25vh;
+
+    top: 45%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+
+    transform: translate(-50%,50%);
+
+}
+
 
 .flyer3
 {
@@ -338,6 +477,117 @@ h2 > .h2o
 {
     background: url(./../assets/hoja.jpg);
     background-size: cover;
+    position: relative;
+
+}
+
+.flyer4 > h2 
+{
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 7vh;
+    font-weight: 100;
 
 
+    top: 0%;
+    width: 100%;
+}
+
+.flyer4 > h3 
+{
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-family: Century Gothic;
+    font-size: 4vh;
+    font-weight: 100;
+
+
+    top: 0%;
+    width: 100%;
+    left: 70%;
+}
+
+
+
+.flyer4 > span
+{
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-family: Century Gothic;
+    font-size: 4vh;
+    font-weight: 100;
+
+
+    top: 60%;
+    width: 100%;
+}
+
+.flyer4 > .pintarVerde
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-family: Century Gothic;
+    font-size: 2vh;
+    font-weight: 100;
+    color: #9ac01d;
+
+
+    top: 35%;
+    left: 70%;
+    width: 100%;
+}
+
+.flyer4 > .a
+{
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-family: Century Gothic;
+    font-size: 4vh;
+    font-weight: 100;
+
+    top: 50%;
+    width: 100%;
+}
+
+.flyer4 > .datosRestantes
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-family: Century Gothic;
+    font-weight: 100;
+    color: white;
+
+    top: 20%;
+    left: 70%;
+    width: 100%;
+}
+
+.flyer4 > .datosRestantes > p
+{
+    position: absolute;
+    transform: translate(-50%,50%);
+    font-family: Century Gothic;
+    font-weight: 100;
+    font-size: 2vh;
+    padding: 3vh;
+    display: contents;
+    left: 50%;
+    width: 100%;
+}
+
+br
+{
+    margin-top: 1vh;
 }
