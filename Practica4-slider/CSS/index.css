@@ -1,0 +1,98 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider
+{
+    background: antiquewhite ;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    /* display: flex; */
+}
+
+.slider > ul
+{
+    display: flex;
+    margin: 0;
+    background: red;
+    width: 1200%;
+    height: 100%;
+    padding: 0;
+    animation: slide 15s infinite alternate;
+}
+
+.slider > ul > li {
+    width: 100%;
+    height: 100vh;
+    list-style: none;
+}
+
+
+.slider > ul > li > img {
+    /* width: 90vh; */
+    width: 100%;
+    height: 100%;
+
+}
+
+@keyframes slide {
+
+   
+
+    0%
+    {
+        margin-left: 0%;
+    }
+   
+
+    8%
+    {
+        margin-left: -100%;
+    }
+    16%
+    {
+       margin-left: -200%; 
+    }
+    24%
+    {
+       margin-left: -300%; 
+    }
+    33%
+    {
+       margin-left: -400%; 
+    }
+    41%
+    {
+       margin-left: -500%; 
+    }
+    49%
+    {
+       margin-left: -600%; 
+    }
+    58%
+    {
+       margin-left: -700%; 
+    }
+    66%
+    {
+       margin-left: -800%; 
+    }
+    75%
+    {
+       margin-left: -900%; 
+    }
+    83%
+    {
+       margin-left: -1000%; 
+    }
+    91%
+    {
+       margin-left: -1100%; 
+    }
+}
