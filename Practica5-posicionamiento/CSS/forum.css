@@ -5,37 +5,186 @@ body{
     
 }
 
-.titleForum { 
-    height: 15vh;
-    border: red 1px solid;
+div {
+    margin: 0;
+    padding: 0;
 }
 
+.titleForum { 
+    position: relative;
+    height: 14vh;
+    background: #e4e4e4;
+    font-size: 100%;
+    color: rgb(53, 53, 53);
+    font-family: Century Gothic;
+}
+
+.revista{
+    position: absolute;
+    font-size: 2.5vh;
+    top: 40%;
+    left: 19%;
+    font-weight: 1000;
+
+}
+.O
+{
+    font-size: 14vh;
+    position: absolute;
+    color: #9ac01d;
+    left: 12.5%;
+}
+.slogan {
+    font-size: 2.5vh;
+    position: absolute;
+    color: #9ac01d;
+    top: 10vh;
+    left: 12.5%;
+    font-weight: 500;
+}
+.copy {
+    font-size: 1.5vh;
+    position: absolute;
+    bottom: 17.5%;
+}
 .titleForum > h1, p {
     margin: 0;
-    
+    padding: 0;
+    position: absolute;
+    font-size: 14vh;
+    font-weight: 100;
+    /* transform: translate(0%, 0%); */
+    top: -20%;
+
 }
 
-.tabs > ul {
+.tabs > div {
     display: flex;
     justify-content: space-around;
-
+    margin: 0;
+    padding: 0;
     height: 5vh;
-    border: red 1px solid;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    /* border: red 1px solid; */
 }
 
-.tabs > ul > li { 
+.tabs > div > a { 
     list-style:none;
-
+    background: #cce95c;
+    color: white;
+    font-family: fantasy;
+    text-align: center;
+    width: 12.5%;
+    margin: .5vh;
+    padding: .5vh;
+    font-size: 2.5vh;
+    text-decoration: none;
+    
 }
 
+.tabs > div > a:hover { 
+
+    color: rgb(226, 226, 226);
+    background-color: #9ac01d;
+}
+
+#fecha {
+    padding: 1vh;
+    background: dimgray;
+    font-family: sans-serif;
+    font-size: 2vh;
+    font-weight: 600;
+    width: 25%;
+
+}
 
 .banner { 
-    height: 40vh;
-    border: red 1px solid;
+    position: relative;
+    height: 35vh;
     background: url(./../assets/evangelion.jpg);
     background-size: cover;
+    color: white;
+}
+
+.banner > .borderBanner 
+{
+    margin: 0, 0, 0, 0;
+    padding: 0;
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
     
+    left: 2vh;
+    top: 2vh;
+    /* right: 2vh;
+    bottom: 2vh; */
     
+    width: 96vw;
+    height: 30vh;
+    
+    /* transform: translate(0%, 0%); */
+
+}
+
+.banner > h2, p{ 
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+}
+.pRevista
+{
+    position: absolute;
+    color: white;
+    font-size: 3vh;
+    font-weight: 100;
+    font-family: Century Gothic;
+    
+    left: 70.25vw;
+    top: 10vh;
+}
+.h2
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: white;
+    font-size: 8vh;
+    font-weight: 100;
+    font-family: Century Gothic;
+    
+    left: 70vw;
+    top: 12vh;
+
+}
+h2 > .h2o
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: #9ac01d;
+    font-size: 8vh;
+    font-weight: 100;
+    font-family: Century Gothic;
+    
+    left: 14%;
+    top: 0vh;
+
+}
+.pSlogan
+{
+    color: white;
+    position: absolute;
+    font-family: Century Gothic;
+    font-size: 2vh;
+    font-weight: 500;
+    /* height: 2vh; */
+
+    left: 1%;
+    top: 85%;
 }
 
 
@@ -43,6 +192,7 @@ body{
 }
 
 .flyers > ul { 
+    margin: 0;
     display: flex;
     justify-content: space-around;
     padding: 0;
@@ -50,10 +200,144 @@ body{
 }
 
 .flyers > ul > li { 
-    padding: 2%;
-    border: red 1px solid;
-    width: 25%;
-    height: 40vh;
+    margin: 1%;
+    width: 20%;
+    height: 50vh;
     /* border-collapse: collapse; */
     list-style:none;
+    border-style: solid;
+
+}
+
+.flyer1
+{
+    background: #64184d;  
+     position: relative;
+}
+.flyer1 > .circulo 
+{
+    width: 60%;
+     height: 50%;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #ba0999;
+     border-style: solid;
+     border-color: white;
+     border-width: 1vh;
+
+    position: absolute;
+    left: 20%;
+    bottom: 12.5%;
+}
+
+.flyer1 > .circulo > p 
+{
+    position: absolute;
+    font-size: 10px;
+    top: 10px;
+    color: white;
+    font-family: Century Gothic;
+    font-size: 7vh;
+
+    top: 10%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+
+    transform: translate(-50%,50%);
+
+}
+.flyer1 > .circulo > span 
+{
+    position: absolute;
+    font-size: 10px;
+    top: 10px;
+    color: white;
+    font-family: Century Gothic;
+    font-size: 4vh;
+
+    top: 45%;
+    left: 70%;
+    width: 100%;
+    text-align: center;
+
+    transform: translate(-50%,50%);
+
+}
+
+
+.flyer1 > p 
+{ 
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 3vh;
+
+
+    top: 5%;
+    width: 100%;
+}
+
+.flyer1 > span
+{ 
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 3vh;
+    font-weight: 500;
+
+    top: 12.5%;
+    width: 100%;
+}
+
+.flyer1 > .cursiva 
+{
+    position: absolute;
+    font-size: 2.5vh;
+    color: white;
+    left: 52.5%;
+    /* transform: translate(-50%,50%); */
+    top: 90%;
+    height: 1vh;
+    width: 100%;
+    font-style: oblique;
+    font-family: Mistral;
+}
+
+.flyer2
+{
+    background: #3f403c;
+}
+
+.flyer3
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: gray;
+}
+
+.flyer3 > div
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.flyer4
+{
+    background: url(./../assets/hoja.jpg);
+    background-size: cover;
+
+
 }
