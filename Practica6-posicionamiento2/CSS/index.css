@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+header{
+    background-color:#e5e5e2;
+    height: 20vh;
+    width: 100%;
+    margin: 1vh 1vh 1vh 1vh;
+    border: 1px solid #000;
+    position: relative;
+
+}
+
+header > h1 {
+    position: absolute;
+    left: 16vw;
+    top: 3vh;
+    font-size: 10vh;
+    margin: 0;
+    font-family: Bradley Hand ITC;
+    font-weight: 1000;
+}
+
+header > h1 > span { 
+    font-family: system-ui;
+    left: 6vw;
+    font-size: 7vh;
+    font-weight: bolder;
+    color: #a9c00e;
+    -webkit-text-stroke: .5px black;
+}
+
+div { 
+}
+
+.contenedor
+{
+    border: 1px solid #000;
+    
+    width: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    background:#a9c00e;
+
+    /* margin: 10px 0px 10px 0px; */
+    padding: 0;
+    margin: 1vh 1vh 1vh 1vh;
+
+}
+
+.contenedor > div
+{
+    font-family: sans-serif;
+    font-weight: 1000;
+    color: white;
+    padding: 0;
+    text-align: justify;
+    /* padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px; */
+}
+
+.contenedor > div > h2 {
+    margin: 0;
+    font-size: 7.5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 3vh;
+}
+.contenedor > div > p {
+    margin: 0;
+    font-size: 2.5vh;
+    text-transform: uppercase;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 0;
+    
+}
+
+.cuadro1 {
+    width: 50%;
+}
+.cuadro2 {
+    width: 50%;
+}
+.cuadro3 {
+    margin-top: 9vh;
+    width: 35%;
+}
+.cuadro4
+{
+    width: 65%;
+    
+}
+.cuadro4 > img{
+    margin-top: 5vh;
+    width: 90%;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.contenedor > .cuadro4 > p {
+    font-style: italic;
+    color: black;
+    margin-left: 7vw;
+    font-size:3.5vh;
+    position: relative;
+
+}
+
+
+
+.aside {
+    width: 22%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+     
+}
+
+.aside > .asideTop {
+    border: 1px solid black;
+    width: 100%;
+    height: 20vh;
+    background: #a9c00e;
+
+    /* margin: 10px 0px 10px 0px; */
+    padding: 0;
+    margin: 0;
+}
+
+.aside > .asideBottom {
+    border: 1px solid black;
+    width: 100%;
+    height: 50vh;
+    background: #e5e5e2;
+
+    padding: 0;
+    margin: 1vh 0 0 0;
+
+}
