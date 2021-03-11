@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #240229;
+}
+
+.loader { 
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: spin 1s infinite ease-out;
+    border-radius: 50%;
+}
+
+.loader::after { 
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    bottom: 25px;
+    right: 25px;
+
+    background: #240229;
+    border-radius: 50%;
+}
+
+@keyframes spin { 
+    0% { 
+        transform: rotate(0deg)
+    }
+    100% { 
+        transform: rotate(360deg)
+    }
+}
